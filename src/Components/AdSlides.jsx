@@ -30,7 +30,7 @@ const AdSlides = () => {
 
   return (
     <div className="flex items-center justify-center w-full !mt-10">
-      <div className="w-[95%] h-[300px] md:h-[500px] overflow-hidden flex items-center justify-between rounded-xl shadow-lg">
+      <div className="w-[95%] h-[300px] bg-[#ffe7ec] md:h-[500px] overflow-hidden flex items-center justify-between rounded-xl shadow-lg">
         <img
           src={images[current]}
           alt={`Slide ${current + 1}`}
