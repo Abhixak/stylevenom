@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Logo from "/logo.png";
 import { FaOpencart } from "react-icons/fa";
+import { AiOutlineNotification } from "react-icons/ai";
+import { LuUserRound, LuUserRoundCheck, LuUserRoundMinus } from "react-icons/lu";
+import { TfiHeart } from "react-icons/tfi";
+import { CgMenuRightAlt } from "react-icons/cg";
+import { RiCloseLargeLine } from "react-icons/ri";
 
 const Header = () => {
   const offers = [
@@ -26,18 +31,22 @@ const Header = () => {
 
   return (
     <>
-      <header className="h-30 grid items-center grid-cols-[1fr_1fr] bg-[#ffe4e2]">
-        <img src={Logo} alt="Logo" className="h-30 !pl-10" />
-        <span className="absolute right-10 flex gap-10 items-center">
-          <FaOpencart className="text-[2em] transition duration-300 ease-in-out hover:text-[#574141] text-[#bd8180] cursor-pointer" />
-          <span className="border-2 border-[#976973] flex text-[#574141] font-bold items-center justify-center bg-[#ffe7ec] rounded-4xl">
-            <button className="hover:text-[#f3eed9] transition duration-300 ease-in-out cursor-pointer hover:bg-[#976973] !p-4 rounded-4xl w-[100px]">
-              Login
-            </button>
-            <button className="hover:text-[#f3eed9] transition duration-300 ease-in-out cursor-pointer hover:bg-[#976973] !p-4 rounded-4xl w-[100px]">
-              Register
-            </button>
-          </span>
+      <header className="h-15 sm:h-20 md:h-30 grid items-center grid-cols-[1fr_1fr] bg-gray-200 ">
+        {/* bg-[#ffe4e2] */}
+        <img src={Logo} alt="Logo" className="h-15 sm:h-20 md:h-30 !pl-5 sm:!pl-7 md:!pl-10" />
+        <span className="absolute right-5 flex gap-5 sm:gap-7 md:gap-10 items-center">
+          <TfiHeart className="text-[1em] sm:text-[1.5em] md:text-[2em] transition duration-300 ease-in-out text-[#e0344b] cursor-pointer" />
+          <FaOpencart className="text-[1em] sm:text-[1.5em] md:text-[2em] transition duration-300 ease-in-out text-[#008ab5] cursor-pointer" />
+          {/* <span className="border-2 border-[#976973] flex text-[#574141] font-bold items-center justify-center bg-[#ffe7ec] rounded-4xl"> */}
+          
+          <AiOutlineNotification className="text-[1em] sm:text-[1.5em] md:text-[2em] transition duration-300 ease-in-out text-[#008ab5] cursor-pointer" />
+          <LuUserRoundMinus className="text-[1em] sm:text-[1.5em] md:text-[2em] transition duration-300 ease-in-out text-[#e0344b] cursor-pointer" />
+          <LuUserRound className="hidden text-[1em] sm:text-[1.5em] md:text-[2em] transition duration-300 ease-in-out hover:text-[#008ab5] text-[#bd8180] cursor-pointer" />
+          <LuUserRoundCheck className="hidden text-[1em] sm:text-[1.5em] md:text-[2em] transition duration-300 ease-in-out text-[#305100] cursor-pointer" />
+{/*         
+          <CgMenuRightAlt className="md:hidden text-[1em] sm:text-[1.5em] md:text-[2em] transition duration-300 ease-in-out text-[#574141] cursor-pointer" />
+          <RiCloseLargeLine className="hidden text-[1em] sm:text-[1.5em] md:text-[2em] transition duration-300 ease-in-out text-[#574141] cursor-pointer" />
+         */}
         </span>
       </header>
 

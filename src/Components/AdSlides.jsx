@@ -29,8 +29,8 @@ const AdSlides = () => {
   }, []);
 
   return (
-    <div className="flex justify-center !mt-10">
-      <div className="w-[95%] shadow-xl h-100 rounded-md gap-5 grid md:grid-cols-3 overflow-hidden items-center">
+    <div className="flex justify-center !mt-5 md:!mt-10">
+      <div className="w-[95%] h-200 sm:h-250 md:h-100 rounded-md md:gap-5 gap-3 grid md:grid-cols-3 overflow-hidden items-center">
         
         {/* Men's Section */}
         <div className="bg-blue-200 h-full w-full overflow-hidden rounded-md">
@@ -39,10 +39,11 @@ const AdSlides = () => {
             alt="Men"
             className="w-full h-full object-cover"
           />
+          <a href="#">MEN's COLLECTION</a>
         </div>
 
         {/* Center Button */}
-        <div className="bg-gray-200 h-full flex flex-col justify-center rounded-xl items-center gap-2">
+        <div className="bg-gray-200 h-30 md:h-full flex flex-col justify-center rounded-xl items-center gap-2">
           <h2 className="text-xl font-bold text-gray-800">SHOP NOW</h2>
           <button className="bg-black text-white !px-6 !py-2 cursor-pointer rounded-full hover:bg-gray-800 transition">
             Explore
