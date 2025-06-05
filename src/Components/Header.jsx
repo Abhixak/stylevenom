@@ -35,17 +35,17 @@ const Header = () => {
         {/* bg-[#ffe4e2] */}
         <img src={Logo} alt="Logo" className="h-15 sm:h-20 md:h-25 !pl-5 sm:!pl-7 md:!pl-10" />
         <span className="absolute right-5 sm:right-7 md:right-10 flex gap-5 sm:gap-7 md:gap-10 items-center">
-          <TfiHeart className="text-[1em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#e0344b] cursor-pointer" />
-          <FaOpencart className="text-[1em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#008ab5] cursor-pointer" />
+          <TfiHeart className="text-[1.2em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#e0344b] cursor-pointer" />
+          <FaOpencart className="text-[1.2em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#008ab5] cursor-pointer" />
           {/* <span className="border-2 border-[#976973] flex text-[#574141] font-bold items-center justify-center bg-[#ffe7ec] rounded-4xl"> */}
           
-          <AiOutlineNotification className="text-[1em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#008ab5] cursor-pointer" />
-          <LuUserRoundMinus className="text-[1em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#e0344b] cursor-pointer" />
-          <LuUserRound className="hidden text-[1em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out hover:text-[#008ab5] text-[#bd8180] cursor-pointer" />
-          <LuUserRoundCheck className="hidden text-[1em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#305100] cursor-pointer" />
+          <AiOutlineNotification className="text-[1.2em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#008ab5] cursor-pointer" />
+          <LuUserRoundMinus className="text-[1.2em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#e0344b] cursor-pointer" />
+          <LuUserRound className="hidden text-[1.2em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out hover:text-[#008ab5] text-[#bd8180] cursor-pointer" />
+          <LuUserRoundCheck className="hidden text-[1.2em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#305100] cursor-pointer" />
 {/*         
-          <CgMenuRightAlt className="md:hidden text-[1em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#574141] cursor-pointer" />
-          <RiCloseLargeLine className="hidden text-[1em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#574141] cursor-pointer" />
+          <CgMenuRightAlt className="md:hidden text-[1.2em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#574141] cursor-pointer" />
+          <RiCloseLargeLine className="hidden text-[1.2em] sm:text-[1.5em] md:text-[1.7em] transition duration-300 ease-in-out text-[#574141] cursor-pointer" />
          */}
         </span>
       </header>
